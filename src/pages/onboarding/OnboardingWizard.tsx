@@ -166,7 +166,6 @@ const OnboardingWizard = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Answer[]>([]);
   const navigate = useNavigate();
-  const { isAuthenticated } = useAuthContext();
 
   const handleAnswer = (value: string | string[] | number) => {
     const newAnswers = [...answers];

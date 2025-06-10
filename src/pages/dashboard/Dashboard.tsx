@@ -86,7 +86,6 @@ const recentTransactions = [
 ];
 
 const Dashboard = () => {
-  const { isAuthenticated } = useAuthContext();
 
   return (
     <ProtectedRoute>
