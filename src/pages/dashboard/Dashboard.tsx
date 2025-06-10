@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import MetaTags from '../../components/MetaTags';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import { useAuthContext } from '../../context/AuthContext';
 import ProtectedRoute from '../../components/ProtectedRoute';
 
 // Mock data - replace with real data later
